@@ -1,0 +1,14 @@
+
+table {
+    width: 50%; /* Задає ширину таблиці на 50% */
+    /* Згладжує границі комірок таблиці для компактнішого вигляду */
+    border-collapse: collapse;
+    /* Зовнішні відступи таблиці */
+    margin: 25px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
