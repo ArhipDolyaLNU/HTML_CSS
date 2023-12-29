@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.adv {
+            display: none;
+        }
+
+        div.main:hover~div.adv {
+            display: block;
+        }
+
+        div.main {
+            background-color: aqua;
+            width: 90%;
+        }
+
+        span {
+            font-size: xx-large;
+        }
+
+        @media (min-width: 500px) {
+            div.adv {
+                display: block;
+                width: 50%;
+                background-color: rgb(192, 255, 232);
+                float: left;
+            }
+
+            div.main {
+                background-color: pink;
+                width: 50%;
+                float: left;
+            }
+
+            span {
+                font-size: medium;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde illo veritatis nihil officia
+                    soluta?
+                    Alias iure corporis veritatis voluptates eius repellendus consectetur voluptatem similique, a
+                    perspiciatis voluptatum nesciunt? Cupiditate, aliquid!</span><span>Facilis quo voluptatem temporibus
+                    ducimus reprehenderit eveniet ratione iste, possimus cum sint fuga delectus! Expedita obcaecati
+                    officiis
+                    totam saepe, veniam tempora. Laboriosam id quidem officia deserunt incidunt impedit. Numquam,
+                    fugiat.</span><span>Tenetur facilis repellat consectetur odit quos. Porro repellendus tempora
+                    dolores
+                    vero. Eaque culpa eveniet odit illum exercitationem? Et, dolorum. Similique dolorem debitis iusto
+                    sequi.
+                    Itaque autem sapiente quidem dolorum culpa!</span></p>
+                    <div class="adv">
+                        <img src="img/cat.jpg" alt="Cat" style="width: 100%;">
+                    </div>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea totam sed quos dolores harum obcaecati
+                    dolor sunt temporibus officiis officia porro, doloribus, sit molestias incidunt delectus
+                    perspiciatis
+                    rerum. Et, excepturi.</span><span>Modi magnam quam ab aut architecto nisi ipsa deserunt
+                    recusandae?
+                    Laborum saepe facere ullam hic beatae ad accusamus cumque vero quasi minus possimus, et natus quo,
+                    quod
+                    in quisquam autem.</span><span>Odit, error et quam neque minima necessitatibus ullam repellendus
+                    ducimus
+                    quis aperiam iusto illo architecto voluptas delectus quaerat deleniti facilis assumenda sunt? Iusto,
+                    recusandae perspiciatis? Cumque quas asperiores modi quidem!</span></p>
+    </div>
+
+</body>
+
+</html>
+
